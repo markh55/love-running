@@ -1,9 +1,6 @@
 /* imported front from google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
 
-
-
-
 /* Asterisk wildcard selector to override deafault styles added by browser */
 * {
     padding: 0;
@@ -59,21 +56,6 @@ main {
     margin-top: 47px;
 }
 
-/* footer */
-#social-networks {
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-}
-
-#social-networks i {
-    font-size: 160%;
-    padding: 5%;
-    color: #3a3a3a;
-}
-
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -114,8 +96,18 @@ nav {
 }
 
 /* footer */
-footer {
-    background-color: #ffffff;
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 
 /* Media query: Tablets and larger (More than 768px) */
@@ -134,7 +126,7 @@ footer {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
