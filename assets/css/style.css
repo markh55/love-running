@@ -238,5 +238,27 @@ hr {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
+}
 
+@media screen and (min-width: 1200px) {    
+    /* Reasons section */
+    #benefits {
+        display: flex;
+        flex-direction: row;
+    }
+    #benefits > div {
+        flex: 1;
+    }
+    #benefits-image {
+        order: 0
+    }
+    #Benefits-mental {
+        order: 1;
+    }
+    #Benefits-mental > div {
+        align-self: flex-start;
+    }
+    #benefits-physical > div {
+        align-self: flex-end;
+    }
 }
