@@ -215,10 +215,24 @@ hr {
         width: 300px;
         right: 50px;
     }
+
+    /* reasons section */
+    #benefits-physical,
+    #benefits-mental {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #benefits-physical > div,
+    #benefits-mental > div {
+        width: 75%;
+    }
+    #Benefits-mental > div {
+        text-align: end;
+        align-self: flex-end;
+    }
+
 }
-
-
-
 
 @media screen and (min-width: 992px) {
     #menu a:hover {
