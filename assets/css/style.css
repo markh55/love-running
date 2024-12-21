@@ -25,7 +25,6 @@ h1, h2, h3 {
     letter-spacing: 2px;
     color: #252525;
 }
-
 .hidden-heading {
     display: none;
 }
@@ -186,6 +185,16 @@ hr {
 #times h3 {
     /* overrides ant general style set */
     color: #fafafa;
+}
+
+/* Gallery page */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
 }
 
 /* footer */
